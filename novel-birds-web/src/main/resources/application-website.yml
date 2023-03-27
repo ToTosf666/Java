@@ -1,0 +1,13 @@
+templates:
+  name: we
+mapping:
+  index: "/web"
+  home: "/web/home"
+  page: "/web/page"
+  classify: "/web/classify"
+  bookrack: "/web/bookrack"
+  user: "/web/user"
+website:
+  name: "飞鸟小说"
+  keywords: "飞鸟小说"
+  description: "飞鸟小说"

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ads</title>
+</head>
+<body>
+
+<!--内嵌广告位-通用-->
+<div class="adsCommon" th:fragment="adsInset" th:if="${webAds}">
+
+</div>
+
+<!--内嵌广告位-首页-->
+<div class="adsHome" th:fragment="adsHome" th:if="${webAds}">
+
+</div>
+
+<!--广告位-书籍-->
+<div class="adsBook" th:fragment="adsBook" th:if="${webAds}">
+
+</div>
+
+<!--广告位-书架-->
+<div class="adsBookRack" th:fragment="adsBookRack" th:if="${webAds}">
+
+</div>
+
+<!--广告位-阅读-->
+<div class="adsRead" th:fragment="adsRead" th:if="${webAds}">
+
+</div>
+
+
+</div>
+</body>
+</html>
